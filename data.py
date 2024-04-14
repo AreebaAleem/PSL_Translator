@@ -10,7 +10,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "/Users/Dell XPS White/Desktop/FYP/PSL_Translator/Data/Home"
+folder = "/Users/Dell XPS White/Desktop/MATLAB/Data/Home"
 
 while True:
     success , img = cap.read ()

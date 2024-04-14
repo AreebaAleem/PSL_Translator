@@ -10,7 +10,7 @@ random_seed = 42
 np.random.seed(random_seed)
 tf.random.set_seed(random_seed)
 
-data_folder = "/Users/Dell XPS White/Desktop/FYP/PSL_Translator/Data"
+data_folder = "/Users/Dell XPS White/Desktop/MATLAB/Data"
 class_folders = sorted([os.path.join(data_folder, folder_name) for folder_name in os.listdir(data_folder)])
 
 imgSize = 300
