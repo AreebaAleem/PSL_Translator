@@ -68,6 +68,7 @@ while True:
                 wGap = math.ceil((imgSize-wCal)/2)
                 imgWhite[:, wGap: wCal + wGap] = imgResize
             else:
+                
                 k = imgSize / w
                 hCal = math.ceil(k * h)
                 imgResize = cv2.resize(imgCrop, (imgSize, hCal))
